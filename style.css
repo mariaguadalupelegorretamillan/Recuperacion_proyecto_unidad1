@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+background-color: transparent;
+width: 100%;
+list-style-type: none;
+font-family: 'Indie Flower', cursive;
+font-family: 'Odor Mean Chey', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+nav li{
+    display: inline-flex;
+   
+}
+nav a{
+    text-decoration: none;
+    color: rgb(31, 3, 3);
+    padding: 20px;
+    width: 80px;
+    margin-left: 20%;
+}
+nav li:hover{
+    background-color: rgb(231, 121, 213);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Odor Mean Chey', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Tiro Devanagari Sanskrit', serif;   
+}
+.redes{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left:180px;  
+}
+.boton{ 
+    font-weight: 50;
+    font-size: 1.2rem;
+    background-color: rgb(214, 102, 168);
+    border-color: #c73579;
+    text-align: center;
+    border-style:groove;
+    margin-bottom: auto;
+    margin-left: 600px;
+    margin-right: 900px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Odor Mean Chey', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}  
+  #tw {
+    position: static;
+    top: 80px;
+    left: 10px;
+  }
+  #tw li:hover{
+    background-color: rgb(190, 40, 158);
+  }
+  .imagen{
+    padding: 2px; 
+    margin: 2px; 
+    float: right;
+}
+.hobbies{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Odor Mean Chey', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    margin-left: 100px;
+}
+.red {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+  }
+  .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
